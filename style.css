@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+p {
+    color: gray;
+}
+
+.crimson {
+    color: crimson;
+}
+
+.navigation {
+    min-height: 100px;
+    padding-top: 10px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+.navigation .logo {
+    float: left;
+    margin-left: 65px;
+}
+
+.navigation .logo h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navigation nav {
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav li {
+    float: left;
+    margin-right: 40px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px ;
+    background-color: aqua;
+    border-radius: 10%;
+    color: white;
+}
+
+.halfWidth {
+    width: 50%;
+}
+
+#top .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#heading {
+    margin-left: 65px;
+    margin-top: 165px;
+    padding-right: 10%;
+}
+
+#heading h1 {
+    font-size: 40px;
+}
+
+.button {
+    text-decoration: none;
+    background: linear-gradient(orange, crimson);
+    border-radius: 30px;
+    color: white;
+    padding: 20px 45px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#mid .container {
+    display: flex;
+    flex-direction: row;
+    background: url(./img/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+#mid img {
+    width: 50%;
+    padding: 50px 80px 0 80px;
+    margin-left: 40px;
+}
+
+#mid h1 {
+    font-size: 40px;
+}
+
+#description {
+    padding-top: 160px;
+}
+
+#mid p {
+    padding-right: 200px;
+}
+
+#recipies {
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 0 30px;
+    padding: 0 25%;
+}
+
+#recipies h1,#recipies p {
+    color: black;
+}
+
+#items .container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%
+}
+
+#items .item {
+    width: 34%;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0 -0.5rem 2rem rgba(0,0,0,.15);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#items img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#bottom .container {
+    display: flex;
+    flex-direction: row;
+    margin: 7% 7%;
+    box-shadow: 0 -0.5rem 2rem rgba(0,0,0,.15);
+    border-radius: 20px;
+    height: 225px;
+}
+
+#bottom .item {
+    width: 34%;
+    padding: 0 2%;
+    margin: 2%;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+#bottom h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+footer {
+    align-items: center;
+    min-height: 30vh;
+    text-align: center;
+    background: #0f1a25;
+}
+
+footer div {
+    padding-top: 15px;
+}
+footer div p {
+    color: white;
+}
